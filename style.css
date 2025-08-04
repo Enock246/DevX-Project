@@ -1,0 +1,432 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Styling */
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+nav {
+  font-family: "Nunito", sans-serif;
+  background-color: #f8f3fd;
+  padding: 16px 0 10px 0;
+}
+
+.list-item1 {
+  width: 95px;
+  height: 24px;
+  top: 38px;
+  left: 135px;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+/* Nav Home Styling */
+
+.list-item2 {
+  width: 49px;
+  height: 24px;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  font-weight: 500px;
+  color: #000000;
+  margin: 0 20px 0 20px;
+}
+
+/* Nav Our Programs Styling */
+
+.list-item3 {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  font-weight: 500px;
+  color: #000000;
+  width: 115px;
+  height: 24px;
+  margin: 0 20px 0 20px;
+}
+
+/* Nav Why TPU Styling */
+
+.list-item4 {
+  height: 24px;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  font-weight: 500px;
+  color: #000000;
+  width: 81px;
+  margin: 0 20px 0 20px;
+}
+
+/* Nav Community Styling */
+
+.list-item5 {
+  height: 24px;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  font-weight: 500px;
+  color: #000000;
+  width: 94px;
+  margin: 0 20px 0 20px;
+}
+
+/* Nav Contact Us Styling */
+
+.list-item6 {
+  height: 24px;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  font-weight: 500px;
+  color: #000000;
+  width: 95px;
+  margin: 0 20px 0 20px;
+}
+
+/* Nav FAQs Styling */
+
+.list-item7 {
+  height: 24px;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  font-weight: 500px;
+  color: #000000;
+  width: 95px;
+  margin: 0 20px 0 20px;
+}
+
+.list-item8 {
+  height: 13px;
+  font-size: 18px;
+  letter-spacing: 0px;
+  font-weight: 500px;
+  color: #000000;
+  width: 56px;
+  font-style: Medium;
+  size: 18px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.list-item9 {
+  font-size: 18px;
+  letter-spacing: 0px;
+  font-weight: 500px;
+  color: #000000;
+  font-style: Medium;
+  size: 18px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.list-container {
+  display: flex;
+  justify-content: center;
+}
+
+.list-container2 {
+  display: flex;
+  gap: 20px;
+}
+
+a[href] {
+  text-decoration: none;
+}
+
+button {
+  border: 1px solid;
+  height: 45px;
+  border-radius: 8px;
+  width: 125px;
+  background-color: #60209e;
+  padding: 10px 16px 10px 16px;
+  margin-top: 10px;
+}
+
+@media (max-width: 633px) {
+}
+
+/* Hero Section Styling */
+
+.hero-section {
+  font-family: PT Sans, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 837px;
+}
+
+.welcome-msg {
+  font-family: PT Sans, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+  margin-top: 100px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.hero-title1,
+.hero-title2 {
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 73px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #0d0b32;
+  margin-bottom: 10px;
+}
+
+.hero-description1,
+.hero-description2 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #555555;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  color: #ffffff;
+  width: 150px;
+  margin-bottom: 200px;
+}
+
+.achievements-container {
+  font-family: PT Sans, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px;
+  width: 1920;
+  height: 364;
+  opacity: 1;
+  top: 937px;
+  padding-top: 55px;
+  padding-right: 225px;
+  padding-bottom: 93px;
+  padding-left: 225px;
+  background-color: #f7f0ff;
+
+  gap: 68px;
+}
+
+.achievements-details {
+  display: flex;
+}
+
+.image-details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-right: 40px;
+}
+
+.achievements-heading {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 45px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.img-num {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: -1.2%;
+}
+
+.img-txt {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 1%;
+  text-transform: uppercase;
+  color: #5e00d0;
+}
+
+.trophy-img,
+.users-img,
+.smiley-img,
+.briefcase-img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Responsive Styles */
+/* filepath: c:\Users\Enoch\Desktop\DevX Project\style.css */
+
+/* Tablet screens */
+@media (max-width: 1024px) {
+  .achievements-container {
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 100%;
+    height: auto;
+  }
+  .hero-title1,
+  .hero-title2 {
+    font-size: 48px;
+  }
+  .achievements-heading {
+    font-size: 32px;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+  }
+  .list-container,
+  .list-container2 {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .hero-section {
+    height: auto;
+    padding: 20px 10px;
+  }
+  .hero-title1,
+  .hero-title2 {
+    font-size: 32px;
+    line-height: 1.1;
+  }
+  .hero-description1,
+  .hero-description2 {
+    font-size: 18px;
+  }
+  .achievements-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 32px;
+  }
+  .achievements-details {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .image-details {
+    margin-right: 0;
+    align-items: center;
+  }
+  .achievements-heading {
+    font-size: 24px;
+  }
+  .img-num {
+    font-size: 18px;
+  }
+  .img-txt {
+    font-size: 12px;
+  }
+  .trophy-img,
+  .users-img,
+  .smiley-img,
+  .briefcase-img {
+    width: 36px;
+    height: 36px;
+  }
+  button,
+  .btn {
+    width: 100%;
+    min-width: 0;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+  .hero-title1,
+  .hero-title2 {
+    font-size: 22px;
+  }
+  .achievements-heading {
+    font-size: 18px;
+  }
+  .achievements-container {
+    padding: 10px 2px;
+  }
+}
+
+/* Our Story Section */
+
+.ourstory-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: PT Sans, sans-serif;
+  top: 70px;
+  gap: 50px;
+}
+
+.ourstory-img {
+  width: 360px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.our-story {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 36.02px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.our-story1 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 20px;
+}
+
+.our-story2 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000b2;
+}
+
+.story3 {
+  margin-top: 20px;
+}
+
+.africa {
+  color: #5e00d0;
+}
